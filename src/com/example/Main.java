@@ -16,6 +16,10 @@ public class Main {
         System.out.println("");
         System.out.println("horizontal line" );
         horizontalLine(3);
+
+        System.out.println("");
+        System.out.println("right triangle" );
+        rightTriangle(3);
     }
 
     static void verticalLine(int n) {
@@ -29,6 +33,31 @@ public class Main {
         for (int i=0; i < n; i++) {
             System.out.println('*');
         }
+    }
+
+    static void rightTriangle(int n) {
+        for (int i=0; i < n; i++) {
+            for (int k=0; k <= i; k++ ) {
+                System.out.print('*');
+            }
+            System.out.println("");
+        }
+
+//        for (int i=0; i < n-2; i++) {
+//            System.out.print('*');
+//        }
+//        System.out.println("");
+//
+//        for (int i=0; i < n-1; i++) {
+//            System.out.print('*');
+//        }
+//        System.out.println("");
+//
+//        for (int i=0; i < n; i++) {
+//            System.out.print('*');
+//        }
+//        System.out.println("");
+
     }
 
 
