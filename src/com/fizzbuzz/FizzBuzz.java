@@ -5,8 +5,6 @@ public class FizzBuzz {
 
     public static void main(String[] args) {
         getResult();
-
-
     }
 
     static void getResult() {
